@@ -1,0 +1,7 @@
+baseURL = 'https://corkbits.com/'
+languageCode = 'en-us'
+title = 'CorkBits'
+theme = "poison"
+
+[params]
+  brand = "CorkBits"
