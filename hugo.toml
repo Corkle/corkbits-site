@@ -6,6 +6,7 @@ pluralizelisttitles = false
 
 [params]
   brand = "CorkBits"
+  brand_image = "/images/headshot.jpg"
 
   email_url = "mailto://corey.r.mcdaniel@live.com"
   github_url = "https://github.com/Corkle"
