@@ -5,3 +5,9 @@ theme = "poison"
 
 [params]
   brand = "CorkBits"
+
+  email_url = "mailto://corey.r.mcdaniel@live.com"
+  github_url = "https://github.com/Corkle"
+  linkedin_url = "https://www.linkedin.com/in/corey-mcdaniel/"
+
+  front_page_content = ["journal"]
