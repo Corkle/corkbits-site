@@ -11,7 +11,7 @@ pluralizelisttitles = false
   brand_image = "/images/headshot.jpg"
   description = "I'm Corey McDaniel, a software engineer who loves solving problems and building awesome things. Welcome to my site where I share my thoughts and ideas as I tinker."
 
-  email_url = "mailto://corey@corkbits.com"
+  email_url = "mailto:corey@corkbits.com"
   github_url = "https://github.com/Corkle"
   linkedin_url = "https://www.linkedin.com/in/corey-mcdaniel/"
 
