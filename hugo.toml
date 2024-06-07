@@ -1,5 +1,6 @@
 baseURL = 'https://corkbits.com/'
 
+
 languageCode = 'en-us'
 title = 'CorkBits'
 theme = "poison"
@@ -8,9 +9,9 @@ pluralizelisttitles = false
 [params]
   brand = "CorkBits"
   brand_image = "/images/headshot.jpg"
-  description = "I'm Corey McDaniel, a software engineer who loves solving problems and building things. Welcome to my site where I share the things with which I tinker."
+  description = "I'm Corey McDaniel, a software engineer who loves solving problems and building awesome things. Welcome to my site where I share my thoughts and ideas as I tinker."
 
-  email_url = "mailto://corey.r.mcdaniel@live.com"
+  email_url = "mailto://corey@corkbits.com"
   github_url = "https://github.com/Corkle"
   linkedin_url = "https://www.linkedin.com/in/corey-mcdaniel/"
 
