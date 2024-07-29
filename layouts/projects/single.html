@@ -1,0 +1,30 @@
+{{ define "main" }}
+<div class="project-page">
+    <!-- Introduction Section -->
+    <section class="introduction">
+        <h1>{{ .Title }}</h1>
+        <p>{{ .Description }}</p>
+        {{ .Content }}
+    </section>
+
+    <!-- Journal Entries Section -->
+    <section class="journal-entries">
+        <h2>Dev Journal</h2>
+        <ul style="list-style-type:none;">
+            {{ range where (where .Site.RegularPages "Section" "journal") "Params.categories" "intersect" (slice "Minotaur") }}
+            <li>
+              <a href="{{ .Permalink }}">{{ .Title }}</a>
+              - {{ .Date.Format "2006-01-02" }}
+              <li style="margin-left:1rem;font-style:italic;">
+              {{ range .Params.tags }}
+                  [{{.}}]
+                {{ end }}
+              </li>
+            </li>
+            {{ end }}
+        </ul>
+    </section>
+</div>
+{{ end }}
+
+
